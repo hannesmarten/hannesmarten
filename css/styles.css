@@ -1,0 +1,259 @@
+
+/*colors
+
+Gelb:#FBF333
+
+
+*/
+
+body {
+  margin: 0;
+  font-family: Maison Neue;
+  background-color: #F8CACA;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#banner-oben {
+
+
+}
+#schrift-banner-oben {
+  line-height: 30px;
+  vertical-align: middle;
+  font-size: 1rem;
+  background-color: #FBF333;
+}
+
+#banner-unten {
+  
+
+
+}
+#schrift-banner-unten {
+  line-height: 30px;
+  vertical-align: middle;
+  font-size: 1rem;
+  bottom:0;
+  background-color: #FBF333;
+
+
+}
+
+#logo {
+
+  text-align: center;
+  padding-top: 2.2rem;
+  padding-bottom: 0;
+  font-weight: bold;
+  font-size: 13rem;
+}
+
+#logo a:link {
+  text-decoration: none;
+  color: black;
+}
+
+#logo a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+#logo a:active {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.nav ul > li > a {
+  margin-top: .8rem;
+  display: inline-block;
+}
+
+.nav ul > li > a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.nav ul > li > a:hover {
+  text-decoration: line-through;
+}
+
+.nav ul > li > a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.nav ul > li > a:nth-of-type(1) {
+margin-right: 2.2rem;
+}
+
+.nav ul > li > a:nth-of-type(1) {
+margin-right: 2.2rem;
+}
+
+.nav ul > li {
+  display: inline-block;
+  margin-left: 3rem;
+  height: 100%;
+  padding: 0 .4rem 0 .4rem;
+  font-size: 3.5rem;
+}
+.nav ul {
+  margin-top: 0;
+  text-align: center;
+  padding-right: 40px;
+}
+
+.nav {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+  margin-top: 0;
+
+}
+
+
+#bild {
+  background-image: url(./../img/bild.png);
+  width: 95%;
+  height: 400px;
+  background-color: green;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1rem;
+}
+
+
+.footer {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  padding-bottom: 2.2rem;
+}
+
+.footer > a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer > a:hover {
+  text-decoration:line-through;
+}
+
+#instagram {
+  float: right;
+}
+
+
+
+
+
+
+@media (max-width: 624px) {
+  #instagram {
+    float: none;
+  }
+}
+
+@media (max-width: 1320px) {
+
+  .nav ul > li {
+    font-size: 3rem;
+  }
+
+#logo {
+  font-size: 12rem;
+}
+
+}
+
+@media (max-width: 1187px) {
+
+  .nav ul > li {
+    font-size: 2.5rem;
+  }
+
+#logo {
+  font-size: 11rem;
+}
+
+}
+
+@media (max-width: 1090px) {
+
+  .nav ul > li {
+    font-size: 2rem;
+  }
+
+#logo {
+  font-size: 10rem;
+}
+
+}
+
+
+@media (max-width: 992px) {
+
+  .nav ul > li {
+    font-size: 1.5rem;
+  }
+
+#logo {
+  font-size: 9rem;
+}
+
+}
+
+@media (max-width: 892px) {
+
+  .nav ul > li {
+    font-size: 1.5rem;
+  }
+
+#logo {
+  font-size: 8rem;
+}
+
+}
+
+
+
+@media (max-width: 790px) {
+
+  .nav ul > li {
+    font-size: 1.5rem;
+    display: block;
+  }
+
+#logo {
+  font-size: 7rem;
+}
+
+}
+
+
+@media (max-width: 700px) {
+
+#logo {
+  font-size: 6rem;
+}
+
+
+}
+
+@media (max-width: 590px) {
+
+
+
+#logo {
+  font-size: 5rem;
+}
+
+
+}
